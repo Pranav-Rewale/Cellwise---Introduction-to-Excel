@@ -1,0 +1,16 @@
+{
+  "browser": "156.0.4314.50",
+  "results": [
+    "INR content: rupee examples, INR chart title, and unchanged $B$2 fixed cell reference pass.",
+    "All 7 pages: no horizontal document overflow at 320, 390, 768, 820, 1024, and 1440 pixels; images load; hero heading and illustration do not overlap.",
+    "Mobile menu opens, closes with Escape, and restores focus to the toggle.",
+    "Keyboard skip link moves focus into main content.",
+    "Lesson completion persists after reload and updates overview resume link.",
+    "Quiz: incomplete submission focuses error; 0/5 fails; 4/5 and 5/5 pass; feedback, retry, score persistence, and completion pass.",
+    "Progress reset clears stored completions and quiz score.",
+    "Malformed stored data recovers without a runtime error.",
+    "Blocked storage falls back to page-local progress with an explicit notice.",
+    "JavaScript disabled: mobile navigation, all content, practice reveals, and manual quiz answer key remain usable.",
+    "No JavaScript runtime errors or missing local network assets in the primary context."
+  ]
+}

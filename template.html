@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A reusable, accessible lesson template for the Cellwise learning module.">
+  <meta name="theme-color" content="#176b49">
+  <title>Reusable lesson template | Cellwise</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="app-header">
+    <a class="brand" href="index.html" aria-label="Cellwise home"><span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i><i></i></span>cellwise.</a>
+    <div class="header-right"><a class="header-link" href="index.html#learning-path">Learning path</a><a class="header-link" href="index.html#resources">Resources</a><span class="label-pill">A course for the curious</span><button class="nav-toggle" data-nav-toggle hidden type="button" aria-expanded="false" aria-controls="course-navigation">Lessons <span aria-hidden="true">☰</span></button></div>
+  </header>
+  <div class="app-layout">
+    <aside class="sidebar course-nav-panel" id="course-navigation" aria-label="Course navigation and progress">
+      <div class="sidebar-intro"><p class="eyebrow">YOUR LEARNING SPACE</p><h2 class="sidebar-title">Introduction to Excel</h2><p class="sidebar-caption">A little practice. A lot of possibility.</p></div>
+      <nav class="course-nav" aria-label="Lessons"><ol><li><a href="index.html"><span class="overview-icon" aria-hidden="true">▦</span>Course overview</a></li><li><a href="lesson1.html" data-lesson-link="1"><span class="nav-number" aria-hidden="true">01</span><span>Meet your spreadsheet<span class="sr-only" data-completion-status></span></span></a></li><li><a href="lesson2.html" data-lesson-link="2"><span class="nav-number" aria-hidden="true">02</span><span>Enter & format data<span class="sr-only" data-completion-status></span></span></a></li><li><a href="lesson3.html" data-lesson-link="3"><span class="nav-number" aria-hidden="true">03</span><span>Calculate with formulas<span class="sr-only" data-completion-status></span></span></a></li><li><a href="lesson4.html" data-lesson-link="4"><span class="nav-number" aria-hidden="true">04</span><span>Sort & filter<span class="sr-only" data-completion-status></span></span></a></li><li><a href="lesson5.html" data-lesson-link="5"><span class="nav-number" aria-hidden="true">05</span><span>Visualize & check your skills<span class="sr-only" data-completion-status></span></span></a></li></ol></nav>
+      <div class="progress-panel"><div class="progress-label"><label for="course-progress">Your progress</label><span data-progress-count>0 of 5</span></div><progress id="course-progress" data-progress value="0" max="5">0 of 5 lessons complete</progress><p class="progress-note" data-storage-note>Enable JavaScript to save your progress.</p><button class="text-button" data-reset-progress hidden type="button">Reset progress</button></div>
+      <div class="sidebar-note"><strong>Made for your first step.</strong><p>No experience needed. Bring your curiosity and a blank spreadsheet.</p></div>
+    </aside>
+    <main class="main" id="main-content" tabindex="-1">
+      <nav aria-label="Breadcrumb"><ol class="breadcrumb"><li><a href="index.html">Learning library</a></li><li class="divider" aria-hidden="true">/</li><li><a href="index.html">Excel essentials</a></li><li class="divider" aria-hidden="true">/</li><li aria-current="page">Lesson template</li></ol></nav>
+      <!-- REUSABLE TEMPLATE: duplicate this file, update the title/meta description,
+breadcrumb, lesson number, objective, body, image alt text, and previous/next links.
+Add aria-current="page" to exactly one matching lesson navigation link.
+See README for the full authoring checklist. -->
+<header class="lesson-header"><p class="eyebrow">EXCEL ESSENTIALS / LESSON TEMPLATE</p><h1>Your lesson title</h1><p class="lesson-lead">Write one clear sentence describing what this lesson helps the learner do.</p><div class="lesson-meta"><span>6 minute lesson</span><span>Read · Try · Reflect</span></div></header><div class="reading-layout"><article class="lesson-body"><div class="callout"><h2>Learning objective</h2><p>Start with an observable action, such as “Identify a cell by its column and row.”</p></div><section id="concept"><h2>Explain one useful concept</h2><p>Introduce the concept in everyday language, then give a concrete example.</p><ul><li>Use concise steps.</li><li>Explain unfamiliar terms.</li></ul><figure><img src="assets/images/cells.svg" width="760" height="390" alt="Example grid highlighting cell B3 at the intersection of column B and row 3."><figcaption>Describe the important takeaway in the image.</figcaption></figure><div class="table-scroll" role="region" aria-label="Example comparison" tabindex="0"><table><caption>Example comparison</caption><thead><tr><th scope="col">Term</th><th scope="col">Meaning</th></tr></thead><tbody><tr><th scope="row">Cell</th><td>One location</td></tr><tr><th scope="row">Range</th><td>A group of cells</td></tr></tbody></table></div></section><section class="practice" id="practice"><p class="eyebrow">YOUR TURN</p><h2>Try it yourself</h2><p>Write a short task with a checkable result.</p><details><summary>Check your thinking</summary><p>Explain the expected result and why it makes sense.</p></details></section><p class="lesson-resource"><a href="https://support.microsoft.com/en-us/excel/basic-tasks-in-excel">Microsoft Excel basics</a></p><nav class="page-pagination" aria-label="Lesson pagination"><a href="index.html">← Course overview</a><a href="lesson1.html">Example lesson →</a></nav></article><aside class="on-this-page" aria-label="On this page"><p class="eyebrow">IN THIS LESSON</p><ul><li><a href="#concept">Concept</a></li><li><a href="#practice">Practice</a></li></ul></aside></div>
+      <footer class="site-footer"><p>cellwise. &nbsp; A little learning, every day.</p><p>Independent learning demo · <a href="index.html#resources">Resources &amp; credits</a></p></footer>
+    </main>
+  </div>
+</body>
+</html>
